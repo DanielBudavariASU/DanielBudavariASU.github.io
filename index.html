@@ -13,32 +13,54 @@
 </head>
 <body>
     <nav>
+        <!-- Create elements using padding, margins and borders per rubric -->
+        <button id="toggle-nav">Menu Button</button> <!-- Button to toggle the menu I will add the script later, rn it does not work-->
         <ul>
-            <li><a href="#about">About</a></li> 
-            <li><a href="#info">Info</a></li>
+            <li><a href="#about">About AME</a></li> 
+            <li><a href="#info">Information</a></li>
+            <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
             <li><a href="https://ame.asu.edu" target="_blank">AME Class Page</a></li>
         </ul>
     </nav>
 
-    <div id="hero">
-        <header id="welcome">WELCOME TO AME-220!</header>
-    </div>
-    
-    <section id="about"> 
-        <h1 id="sectionH1">About this class</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quibusdam magnam assumenda facere sapiente inventore delectus dicta pariatur explicabo amet est ullam optio dolore, et illum! Porro cumque similique consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aperiam deserunt officia minima animi, suscipit impedit veritatis! Voluptas iusto modi illo. Consequuntur a rerum magni totam saepe illum libero ullam.</p>
-    </section>
+    <div id="container"> <!-- div #1 per rubric requirements -->
+        <div id="hero"> <!-- div #2 per rubric requirements -->
+            <header id="welcome">WELCOME TO AME-220!</header>
+        </div>
+        
+        <section id="about"> 
+            <h1 id="sectionH1">About this class</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quibusdam magnam assumenda facere sapiente inventore delectus dicta pariatur explicabo amet est ullam optio dolore, et illum! Porro cumque similique consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aperiam deserunt officia minima animi, suscipit impedit veritatis! Voluptas iusto modi illo. Consequuntur a rerum magni totam saepe illum libero ullam.</p>
+        </section>
 
-    <section id="info"> 
-        <h1 id="sectionH1">Info on html/css/js</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quibusdam magnam assumenda facere sapiente inventore delectus dicta pariatur explicabo amet est ullam optio dolore, et illum! Porro cumque similique consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto error voluptatem dolorum ad nulla saepe minus quam a. Rerum quo quam exercitationem, iure culpa impedit delectus! Itaque iste blanditiis sapiente.</p>
-    </section>
+        <section id="info"> 
+            <h1 id="sectionH1">Info on html/css/js</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quibusdam magnam assumenda facere sapiente inventore delectus dicta pariatur explicabo amet est ullam optio dolore, et illum! Porro cumque similique consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto error voluptatem dolorum ad nulla saepe minus quam a. Rerum quo quam exercitationem, iure culpa impedit delectus! Itaque iste blanditiis sapiente.</p>
+        </section>
+
+        <section id="examples">
+            <h1 id="sectionH1">Examples</h1>
+            <div class="examples-container">
+                <div class="example-image">
+                    <img src="ex1.jpg">
+                </div>
+                <div class="example-image">
+                    <img src="ex2.jpg">
+                </div>
+            </div>
+        </section>
+
+        <div id="footer"> <!-- div #3 per rubric requirements -->
+            <p> <strong>Author:</strong> Daniel Budavari <br> <strong>Contact Me:</strong>
+                <a href="mailto:dbudavar@asu.edu">dbudavar@asu.edu</a>
+            </p> 
+                 
+            <div id="corner-logo"> <!-- div #5 per rubric requirements -->
+                <img src="android-chrome-192x192.png">
+            </div>
+        </div>
+    </div>
+
 </body>
-<footer id="footer">
-    <p>
-    <strong>Author:</strong> Daniel Budavari <br> <strong>Contact Me:</strong>
-    <a href="mailto:dbudavar@asu.edu">dbudavar@asu.edu</a>
-    </p>
-</footer>
 
 </html>
